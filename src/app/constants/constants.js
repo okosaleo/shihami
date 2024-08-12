@@ -17,7 +17,7 @@ import bid from "../images/Bid.png"
 import profile from "../images/User Profile.png"
 import eth from "../images/eth.png"
 import backimg1 from "../images/backimg1.png"
-import backimg2 from "../images/backimg3.png"
+import backimg2 from "../images/backimg2.png"
 import backimg3 from "../images/backimg3.png"
 import backimg4 from "../images/backimg4.png"
 import backmain1 from "../images/backmain1.png"
@@ -29,7 +29,6 @@ import user2 from "../images/userprofile2.png"
 import user3 from "../images/userprofile3.png"
 import user4 from "../images/userprofile4.png"
 import check from "../images/checkmark.png"
-import { id } from "ethers/lib/utils"
 
 
 export const wallets = [
@@ -89,7 +88,6 @@ export const collections = [
         eth: "4.5 ETH",
         onsale: "On Sale",
         usd: "$645 170",
-        btn: "($645,170)",
         btn: bid,
         profile: profile,
         ethImage: eth,
@@ -151,7 +149,7 @@ export const joined = [
     id: 2,
     image: user2,
     backimg: backimg2,
-    backmain: backmain3,
+    backmain: backmain2,
     profilecheck: "Okosa Leonard",
     name: "@okosaleo",
     check: check,
