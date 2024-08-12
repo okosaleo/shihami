@@ -1,6 +1,6 @@
 import { Roboto_Mono } from "next/font/google";
 import logo from "./images/Logo.png"
-import connect from "./images/connect.png"
+import userProfile from "./images/User Profile.png"
 import Link from "next/link";
 import Image from "next/image";
 const roboto_mono = Roboto_Mono({
@@ -30,8 +30,8 @@ export default function RootLayout({ children }) {
             </div>
           </div>
           <div className=" pr-6 text-white flex flex-row justify-between items-center gap-7 ">
-            <button className=""><Image src={connect}  alt="connect your wallet"/></button>
-            <Image src="" alt="profile picture" className="rounded-full w-8 h-8 bg-white" />
+            <button className=" border-[#ad1aaf] border-[2px] p-2 rounded-sm hover:bg-[#ad1aaf]">CONNECT WALLET</button>
+            <Image src={userProfile} alt="profile picture" className="rounded-full w-8 h-8 bg-white" />
           </div>
           </div>
         </div>
