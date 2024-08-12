@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Loader from "./Loader/Loader"
-import Page from "./Home/Page";
+import Page from "./Home/page";
 import Head from 'next/head'
 
 
