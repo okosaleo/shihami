@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Head from "../images/headimg.png"
-import Explore from "../images/Explore More.png"
+import Explore from "../images/Explore more.png"
 import Milky from "../images/Milky Way.png"
 
 export default function Hello() {

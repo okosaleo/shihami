@@ -1,4 +1,4 @@
-"use-client";
+"use client";
 import { useState } from "react";
 import { FiAlignJustify, FiX } from "react-icons/fi"
 import logo from "../images/Logo.png"
